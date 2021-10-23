@@ -66,7 +66,7 @@
     printDragoes(dragoes);
 
     var quantidadeItens = Math.floor(Math.random() * 4) + 1;
-    printItens(`${quantidadeItens} itens da tabela A`);
+    printItens(`${quantidadeItens} itens da tabela B`);
 
     relatorio.hidden = true;
     clear();
@@ -86,7 +86,7 @@
     printDragoes(dragoes);
     
     var quantidadeItens = Math.floor(Math.random() * 4) + 1;
-    printItens(`${quantidadeItens} itens da tabela A`);
+    printItens(`${quantidadeItens} itens da tabela C`);
     
     relatorio.hidden = true;
     clear();
