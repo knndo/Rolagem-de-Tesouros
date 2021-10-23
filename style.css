@@ -117,3 +117,8 @@
     font-size: 23px;
     text-align: left;
   }
+
+  h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(131, 131, 131)
+  }
