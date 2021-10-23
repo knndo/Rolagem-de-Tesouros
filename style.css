@@ -1,0 +1,119 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color:#FAF7FF;
+    background-color: #1E1E1E;
+  }
+  #margemUm{
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 5px;  
+    font: normal 25px Arial;
+  }
+  #margemDois{
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 5px;  
+    font: normal 25px Arial;
+  }
+  #margemTres{
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 5px;  
+    font: normal 25px Arial;
+  }
+  #mortal5, #epico5, #lendario5 {
+    background-color: #54ECC4;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+  #mortal11, #epico11, #lendario11 {
+    background-color: #00B38F;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+  #mortal17, #epico17, #lendario17 {
+    background-color: #007D5C;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+  #placeholder {
+    height: 80px;
+    width: 200px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 70px; 
+  }
+
+  #paraTabela{
+    height: 10px;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    line-height: 10px;
+    border-radius: 10px;  
+    font-size: 28px;
+
+  }
+
+  #paraItens{
+    height: 10px;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid gray;
+    line-height: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+
+  }
+/*enable #ec7e16;*/
+  #gerarRelatorio{
+    background-color: #a8a8a8;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: auto;
+    width: 200px;
+  }
+  #paraRelatorio{
+    position: auto;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid gray;
+    line-height: 35px;
+    border-radius: 10px;  
+    font-size: 23px;
+    text-align: left;
+  }

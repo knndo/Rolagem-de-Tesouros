@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rolagem de Tesouros</title>
+    <link rel="stylesheet" href="style.css">
+</head>  
+<body>
+  <p id="placeholder"></p>
+  <p id="paraTabela"></p>
+  <p id="paraItens"></p>
+
+  <button id="gerarRelatorio" disabled>Gerar Relatório</button>
+  <script>var gerar = document.getElementById('gerarRelatorio');</script>
+
+  <script src="botaoRelatorio.js"></script>
+
+  <p id="paraRelatorio" hidden></p>
+  <script>
+    var relatorio = document.getElementById('paraRelatorio');
+  </script>
+
+  <h2 id="margemUm">5 - 10</h2>
+  <button id="mortal5">Mortal</button>
+  <button id="epico5">Épico</button>
+  <button id="lendario5">Lendário</button><br>
+
+  <script src="510.js"></script>
+  
+  <h2 id="margemDois">11 - 16</h2>
+  <button id="mortal11">Mortal</button>
+  <button id="epico11">Épico</button>
+  <button id="lendario11">Lendário</button><br>
+
+  <script src="1116.js"></script>
+
+  <h2 id="margemTres">17 - 20</h2>
+  <button id="mortal17">Mortal</button>
+  <button id="epico17">Épico</button>
+  <button id="lendario17">Lendário</button><br>
+
+  <script src="1720.js"></script>
+
+  <script>
+    function clear(){
+    var dadosItens = document.getElementById('paraItens');
+    dadosItens.innerHTML = " ";
+  }
+
+  function printDragoes(dragoes) {
+    var placeholder = document.getElementById('placeholder');
+    placeholder.innerHTML = dragoes;
+  }
+
+  function printItens(quantidadeItens){
+    var paraTabela = document.getElementById('paraTabela');
+    paraTabela.innerHTML = quantidadeItens;
+  }
+
+  function printD100(d100){
+    var dadosItens = document.getElementById('paraItens');
+    dadosItens.innerHTML += d100;
+  }
+  </script>
+
+  <h2></h2>
+</body>
+</html>
